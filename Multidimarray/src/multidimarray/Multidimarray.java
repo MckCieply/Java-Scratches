@@ -42,13 +42,13 @@ public class Multidimarray {
         }
         // tworzenie kolumn dla i-tego wiersza, do wiersza srodkowego
         for(int i = 0; i < middle; i++){
-            mainArray[i] = new int[i+1];    
+            mainArray[i] = new int[i+1];    //syntax dla deklaracji wiersza w dwuwymiarowej tablicy
         }
         // tworzenie kolumn dla i-tych wierszy, od wiersza srodkowego
         // temp slzy do przechowywania liczby kolumn
         for(int i = middle; i < rows; i++){
             mainArray[i] = new int[temp-1]; 
-            temp--;
+            temp-=1;
         }
         fillTable(rows, mainArray);
         printTable(rows, mainArray);
