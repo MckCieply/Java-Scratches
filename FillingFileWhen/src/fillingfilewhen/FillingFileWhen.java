@@ -5,14 +5,13 @@ import java.io.*;
 public class FillingFileWhen {
 
     public static void main(String[] args) throws IOException {
-        int num = 0;
+        int num;
         Random rand = new Random();
-
     BufferedWriter writer = new BufferedWriter(new FileWriter("data.txt"));
     int counter = 0;
     while (counter < 300){
         num = rand.nextInt(300);
-        if (num % 13 == 0){
+        if (num % 13 == 0 && num != 0){
             writer.write(num + "\n");
             counter += 1;
         }
