@@ -36,3 +36,7 @@ hs_err_pid*
 /WriteToFile/build/
 /WritenReadfromFile/nbproject/private/
 /WritenReadfromFile/build/
+/Chars/nbproject/private/
+/Chars/build/
+/FillingFileWhen/nbproject/private/
+/FillingFileWhen/build/
