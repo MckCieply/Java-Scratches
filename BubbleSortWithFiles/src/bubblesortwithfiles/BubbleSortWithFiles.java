@@ -1,20 +1,38 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package bubblesortwithfiles;
-
-/**
- *
- * @author mwppl
- */
+import java.io.*;
 public class BubbleSortWithFiles {
+    public static void sort(int[] tab){
+        for(int i: tab){
+            for(int j = 1; j<tab.length;j++){
+                if(tab[j] < tab[j-1]){
+                    int temp = tab[j];
+                    tab[j] = tab[j-1];
+                    tab[j-1] = temp;
+                } 
+            }
+        }
+    }
+    public static void main(String[] args) throws IOException{
+        int[] tab = new int[6];
+        BufferedReader reader = new BufferedReader(new FileReader("data.txt"));
+        String row;
+        int num;
+        int counter = 0;
+        while((row = reader.readLine())!= null){
+            num = Integer.parseInt(row);
+            tab[counter] = num;
+            counter += 1;
+                
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+        }
+        reader.close();
+        System.out.print("Przed sortowaniem:\n");
+        for(int i =0; i<tab.length;i++)
+            System.out.print(tab[i]+ " ");
+        sort(tab);
+        System.out.print("\nPo sortowaniu: \n");
+        for(int i:tab)
+            System.out.print(i + " ");
     }
     
 }
