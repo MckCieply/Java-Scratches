@@ -33,6 +33,11 @@ public class BubbleSortWithFiles {
         System.out.print("\nPo sortowaniu: \n");
         for(int i:tab)
             System.out.print(i + " ");
+        
+        BufferedWriter writer = new BufferedWriter(new FileWriter("dataDone.txt"));
+        for(int i:tab)
+            writer.write(i + "\n");
+        writer.close();
     }
     
 }
