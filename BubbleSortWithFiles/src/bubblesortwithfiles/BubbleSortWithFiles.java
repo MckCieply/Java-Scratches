@@ -22,8 +22,6 @@ public class BubbleSortWithFiles {
             num = Integer.parseInt(row);
             tab[counter] = num;
             counter += 1;
-                
-
         }
         reader.close();
         System.out.print("Przed sortowaniem:\n");
