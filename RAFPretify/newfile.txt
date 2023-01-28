@@ -1,0 +1,6 @@
+To jest tekst ktory 
+trzeba wyrownac i ustawic 
+po jednej spacji i 
+po maks cztery slowa 
+w wierszu oraz zapisac 
+w nowym pliku "newfile.txt" 
