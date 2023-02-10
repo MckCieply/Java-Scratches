@@ -26,8 +26,15 @@ public class EdditingRAF {
         }
         raf.close();
     }
-    public static void change(){
-        
+    public static void change(double[] before) throws IOException {
+        RandomAccessFile raf = new RandomAccessFile("plik.bin", "rw");
+        for(double element: before){
+            if((int) element == element){
+                element /= 2;
+            }
+            raf.writeDouble(element);
+        }
+        raf.close();
     }      
     public static void main(String[] args) throws IOException {
         writeRAF1();
@@ -35,7 +42,11 @@ public class EdditingRAF {
         double[] results = readRAF();
         for(double element: results)
             System.out.print(element+ " ");
-        System.out.println("After change: ");
+        System.out.println("\nAfter change: ");
+        change( results );
+        double[] finaled = readRAF();
+        for(double element: finaled)
+            System.out.print(element+ " ");
     }
     
 }
