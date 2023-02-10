@@ -8,6 +8,8 @@ public class ReadingOneSavingToAnother {
         String row;
         while( (row = reader.readLine()) != null){
             String[] elements = row.split(" +");
+            int num = (Integer.parseInt(elements[3]))*2;
+            elements[3] = Integer.toString(num);
             String output = "";
             for (String element: elements)
                 output += (element+" ");
