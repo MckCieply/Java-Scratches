@@ -1,0 +1,4 @@
+First one bought  13 cars
+Second one won    5 cars
+Third one wrecked 10 cars
+Last one drove    60 cars
