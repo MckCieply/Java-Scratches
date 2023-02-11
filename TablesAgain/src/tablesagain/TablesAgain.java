@@ -14,8 +14,13 @@ public class TablesAgain {
         }
         return data;
     }
-    public static String[] stringarray(String[] data){
-        
+    public static String stringarray(String[] data){
+        String output= "";
+        for (String element: data){
+            output += element;
+        }
+        System.out.print("\nLenght of connected string is: " + output.length());
+        return output;
     }
     public static void main(String[] args) {
         System.out.print("There we have basics of java arrays:\n");
@@ -24,6 +29,8 @@ public class TablesAgain {
         int[] results = intarray(arr);
         for(int element: results)
             System.out.print(element+ " ");
+        String results2 = stringarray(arr2);
+        System.out.println("\n"+results2);
         
     }
     
