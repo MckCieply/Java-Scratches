@@ -4,6 +4,7 @@ package classes1;
 public class Classes1 {
     int num;
     String saidNumber;
+    int[] ldzieci;
     public Classes1(int num, String saidNumber){
         this.num = num;
         this.saidNumber = saidNumber;
