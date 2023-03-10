@@ -1,0 +1,5 @@
+1 Andrzej Grabowski 33 2
+2 Kuba Wojewodzki 52 4
+3 Mikołaj Las 12 1
+4 Tomasz Karolak 42 1
+5 Michal Sok 17 0

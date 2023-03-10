@@ -23,6 +23,7 @@
 hs_err_pid*
 /BasicCalculator/nbproject/private/
 /BasicCalculator/build/
+<<<<<<< Updated upstream
 /BMICalculator/nbproject/private/
 /BMICalculator/build/
 /Randomnumbers/nbproject/private/
@@ -67,3 +68,12 @@ hs_err_pid*
 /CharactersASCII/build/
 /charTable/nbproject/private/
 /charTable/build/
+=======
+/Bubblesort/nbproject/private/
+/whilefor/nbproject/private/
+/whilefor/build/
+/BMICalculator/nbproject/private/
+/BMICalculator/build/
+/TomekHelp/nbproject/private/
+/TomekHelp/build/
+>>>>>>> Stashed changes

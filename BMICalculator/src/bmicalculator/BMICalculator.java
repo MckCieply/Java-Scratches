@@ -6,12 +6,12 @@ public class BMICalculator {
     public static void main(String[] args) {
         Scanner scann = new Scanner(System.in);
         System.out.print("Input your height in meters: \n");
-        float height = scann.nextFloat();   
+        double height = scann.nextDouble();   
         
         System.out.print("Input your weight: \n");
         int weight = scann.nextInt();
         
-        float bmi = weight / (height * height);
+        Double bmi = weight / (height * height);
         System.out.println("Your BMI is equal to: " + bmi);
         
         if (bmi < 18.5){
