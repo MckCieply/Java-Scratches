@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BMICalculator/BMICalculator.iml" filepath="$PROJECT_DIR$/BMICalculator/BMICalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BasicCalculator/BasicCalculator.iml" filepath="$PROJECT_DIR$/BasicCalculator/BasicCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BubbleSortWithFiles/BubbleSortWithFiles.iml" filepath="$PROJECT_DIR$/BubbleSortWithFiles/BubbleSortWithFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bubblesort/Bubblesort.iml" filepath="$PROJECT_DIR$/Bubblesort/Bubblesort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CapitalizeFirstLetter/CapitalizeFirstLetter.iml" filepath="$PROJECT_DIR$/CapitalizeFirstLetter/CapitalizeFirstLetter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CharactersASCII/CharactersASCII.iml" filepath="$PROJECT_DIR$/CharactersASCII/CharactersASCII.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classes1/Classes1.iml" filepath="$PROJECT_DIR$/Classes1/Classes1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DividedBy2and3/DividedBy2and3.iml" filepath="$PROJECT_DIR$/DividedBy2and3/DividedBy2and3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EdditingRAF/EdditingRAF.iml" filepath="$PROJECT_DIR$/EdditingRAF/EdditingRAF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exam/Exam.iml" filepath="$PROJECT_DIR$/Exam/Exam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FillingFileWhen/FillingFileWhen.iml" filepath="$PROJECT_DIR$/FillingFileWhen/FillingFileWhen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FromTXTtoRAF/FromTXTtoRAF.iml" filepath="$PROJECT_DIR$/FromTXTtoRAF/FromTXTtoRAF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-Scratches.iml" filepath="$PROJECT_DIR$/.idea/Java-Scratches.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Multidimarray/Multidimarray.iml" filepath="$PROJECT_DIR$/Multidimarray/Multidimarray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RAFPretify/RAFPretify.iml" filepath="$PROJECT_DIR$/RAFPretify/RAFPretify.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RAFile/RAFile.iml" filepath="$PROJECT_DIR$/RAFile/RAFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RAFilee/RAFilee.iml" filepath="$PROJECT_DIR$/RAFilee/RAFilee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RandomAccessFile/RandomAccessFile.iml" filepath="$PROJECT_DIR$/RandomAccessFile/RandomAccessFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Randomnumbers/Randomnumbers.iml" filepath="$PROJECT_DIR$/Randomnumbers/Randomnumbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReadingOneSavingToAnother/ReadingOneSavingToAnother.iml" filepath="$PROJECT_DIR$/ReadingOneSavingToAnother/ReadingOneSavingToAnother.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReplaceRAFile/ReplaceRAFile.iml" filepath="$PROJECT_DIR$/ReplaceRAFile/ReplaceRAFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringsAgain/StringsAgain.iml" filepath="$PROJECT_DIR$/StringsAgain/StringsAgain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TablesAgain/TablesAgain.iml" filepath="$PROJECT_DIR$/TablesAgain/TablesAgain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TomekHelp/TomekHelp.iml" filepath="$PROJECT_DIR$/TomekHelp/TomekHelp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WriteToFile/WriteToFile.iml" filepath="$PROJECT_DIR$/WriteToFile/WriteToFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WritenReadfromFile/WritenReadfromFile.iml" filepath="$PROJECT_DIR$/WritenReadfromFile/WritenReadfromFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/charTable/charTable.iml" filepath="$PROJECT_DIR$/charTable/charTable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/whilefor/whilefor.iml" filepath="$PROJECT_DIR$/whilefor/whilefor.iml" />
+    </modules>
+  </component>
+</project>
