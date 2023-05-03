@@ -29,6 +29,6 @@ public class Main {
         return strength;
     }
     public static void main(String[] args) {
-
+        System.out.println(battle("1 1 1 1 1 1", "1 1 1 1 1 1 1"));
     }
 }
