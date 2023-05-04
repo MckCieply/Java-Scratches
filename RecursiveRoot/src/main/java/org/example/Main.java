@@ -16,15 +16,15 @@ public class Main {
                 sum += element;
             }
             if (sum > 9){
-                digital_root(sum);
-            }
-            else{
-                return sum;
+                sum = digital_root(sum);
             }
         }
-        return n;
+        else{
+            sum = n;
+        }
+        return sum;
     }
     public static void main(String[] args) {
-        System.out.println(digital_root(16));
+        System.out.println(digital_root(456));
     }
 }
