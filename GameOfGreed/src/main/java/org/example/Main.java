@@ -28,7 +28,15 @@ public class Main {
             if(temp.size() >= 3) {
                 found3 = true;
             }
-
+            // Checking for freestanding 5s n 1s and making sure there is not more than 2 of them
+            if((i == 5 || i == 1) && !temp.contains(i)){
+                if(i == 5) {
+                    score += 50;
+                }
+                if(i == 1){
+                    score += 100;
+                }
+            }
         }
         return 0;
     }
