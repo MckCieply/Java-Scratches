@@ -1,14 +1,12 @@
 package org.example;
 
 public class Main {
-    public static int[][] twosDifference(int[] array) {
+    public static boolean isAnagram(String test, String original) {
 
-        for(int number: array){
-
-        }
-        return new int[][]{};
+        return false;
     }
     public static void main(String[] args) {
+
         System.out.println("Hello world!");
     }
 }
