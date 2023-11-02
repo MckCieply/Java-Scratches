@@ -4,28 +4,28 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 /**
  * Unit test for simple App.
  */
 public class AppTest 
     extends TestCase
 {
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
+    public void testArrayFlipperInteger() {
+        ArrayFlipper arrayFlipper = new ArrayFlipper();
+        ArrayList<Integer> testArray = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6));
+        ArrayList<Integer> expected = new ArrayList<>(Arrays.asList(6, 5, 4, 3, 2, 1));
+        assertEquals(expected, arrayFlipper.flipArrayList(testArray));
+
     }
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
+    public void testArrayFlipperString() {
+        ArrayFlipper arrayFlipper = new ArrayFlipper();
+        ArrayList<String> testArray = new ArrayList<>(Arrays.asList("Tom", "John", "Bob", "Alice", "Kate", "Mary"));
+        ArrayList<String> expected = new ArrayList<>(Arrays.asList("Mary", "Kate", "Alice", "Bob", "John", "Tom"));
+        assertEquals(expected, arrayFlipper.flipArrayList(testArray));
     }
 
     /**
