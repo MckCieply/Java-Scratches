@@ -11,4 +11,13 @@ public class ArrayFlipper {
         }
         return outputArray;
     }
+
+    public int[] flipArrayInteger(int[] inputArray){
+        int[] outputArray = new int[inputArray.length];
+        for(int i = inputArray.length - 1, j = 0; i >= 0; i--, j++){
+            outputArray[j] = inputArray[i];
+        }
+        return outputArray;
+    }
+
 }
