@@ -28,6 +28,12 @@ public class AppTest
         assertEquals(expected, arrayFlipper.flipArrayList(testArray));
     }
 
+    public void testArrayListFlipperDouble() {
+        ArrayFlipper arrayFlipper = new ArrayFlipper();
+        ArrayList<Double> testArray = new ArrayList<>(Arrays.asList(1.1, 2.2, 3.3, 4.4, 5.5, 6.6));
+        ArrayList<Double> expected = new ArrayList<>(Arrays.asList(6.6, 5.5, 4.4, 3.3, 2.2, 1.1));
+        assertEquals(expected, arrayFlipper.flipArrayList(testArray));
+    }
 
     public void testArrayFlipperInteger(){
         ArrayFlipper arrayFlipper = new ArrayFlipper();
