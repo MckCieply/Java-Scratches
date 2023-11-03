@@ -13,7 +13,7 @@ import java.util.Arrays;
 public class AppTest 
     extends TestCase
 {
-    public void testArrayFlipperInteger() {
+    public void testArrayListFlipperInteger() {
         ArrayFlipper arrayFlipper = new ArrayFlipper();
         ArrayList<Integer> testArray = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6));
         ArrayList<Integer> expected = new ArrayList<>(Arrays.asList(6, 5, 4, 3, 2, 1));
@@ -21,13 +21,20 @@ public class AppTest
 
     }
 
-    public void testArrayFlipperString() {
+    public void testArrayListFlipperString() {
         ArrayFlipper arrayFlipper = new ArrayFlipper();
         ArrayList<String> testArray = new ArrayList<>(Arrays.asList("Tom", "John", "Bob", "Alice", "Kate", "Mary"));
         ArrayList<String> expected = new ArrayList<>(Arrays.asList("Mary", "Kate", "Alice", "Bob", "John", "Tom"));
         assertEquals(expected, arrayFlipper.flipArrayList(testArray));
     }
 
+
+    public void testArrayFlipperInteger(){
+        ArrayFlipper arrayFlipper = new ArrayFlipper();
+        int[] testArray = {1, 2, 3, 4, 5, 6};
+        int[] expected = {6, 5, 4, 3, 2, 1};
+        assertEquals(Arrays.toString(expected), Arrays.toString(arrayFlipper.flipArrayInteger(testArray)));
+    }
     /**
      * Rigourous Test :-)
      */
